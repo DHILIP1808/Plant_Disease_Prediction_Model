@@ -1,7 +1,7 @@
 
-# 🌿 Plant Disease Classification using Vision Transformer (ViT)
+# 🌿 Plant Disease Classification using EfficientNetB2 
 
-This project leverages the power of Vision Transformers (ViT) for accurate classification of plant leaf diseases. The goal is to help farmers and researchers identify diseases early using AI-based computer vision techniques.
+This project leverages the power of EfficientNetB2 for accurate classification of plant leaf diseases. The goal is to help farmers and researchers identify diseases early using AI-based computer vision techniques.
 
 ## 📁 Project Structure
 
@@ -21,7 +21,7 @@ We use the **New Plant Diseases Dataset** from Kaggle, which includes healthy an
 
 ## 🧠 Model Overview
 
-We use the **Vision Transformer (ViT)** model from HuggingFace Transformers for fine-tuning on the plant disease dataset.
+We use the **EfficientNetB2** model from HuggingFace Transformers for fine-tuning on the plant disease dataset.
 
 Key Features:
 - Pretrained ViT model
@@ -92,8 +92,6 @@ Predicted Class: Tomato___Late_blight (Confidence: 98.2%)
 ```
 
 ## 📚 References
-
-- [ViT - Vision Transformer by Google](https://arxiv.org/abs/2010.11929)
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers/index)
 - [Kaggle Plant Disease Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
